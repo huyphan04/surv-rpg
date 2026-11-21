@@ -2,8 +2,8 @@
 
 | Bước | Tài liệu | Trạng thái |
 |---|---|---|
-| 01. Ideation | [01-ideation.md](01-ideation.md) | Draft – chờ duyệt |
-| 02. Product Discovery | – | Chưa bắt đầu |
+| 01. Ideation | [01-ideation.md](01-ideation.md) | Đã duyệt |
+| 02. Product Discovery | [02-product-discovery.md](02-product-discovery.md) | Đã duyệt |
 | 03. Requirement (BRD/PRD) | – | Chưa bắt đầu |
 | 04. Architecture | – | Chưa bắt đầu |
 | 05. UI/UX & Game Design | – | Chưa bắt đầu |

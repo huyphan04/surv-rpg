@@ -7,7 +7,7 @@
 | Nền tảng | Minecraft Java Edition – Paper 26.3 (Spigot-compatible API) |
 | Phụ thuộc bắt buộc | **AuraSkills 2.4.0** (hard-depend – stat, mana, skill) |
 | Bước vòng đời | 01 / 09 – Ideation |
-| Trạng thái | Draft – chờ duyệt để sang Bước 02 (Product Discovery) |
+| Trạng thái | Đã duyệt (Approved) – chuyển sang Bước 02 (Product Discovery) |
 | Ngày | 2026-11-21 |
 
 ---
@@ -162,4 +162,4 @@ flowchart LR
 - [x] Phạm vi phân hệ, ranh giới với AuraSkills, out-of-scope
 - [x] Giả định, rủi ro, chỉ số thành công sơ bộ
 - [x] Danh sách câu hỏi mở chuyển sang Bước 02
-- [ ] **Stakeholder duyệt** → sang Bước 02 (Product Discovery)
+- [x] **Stakeholder duyệt** → sang Bước 02 (Product Discovery) (đã chốt câu trả lời cho 8 câu hỏi mở ngày 2026-11-22)
