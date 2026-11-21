@@ -8,7 +8,7 @@
 | Tích hợp tùy chọn | **PlaceholderAPI**, **WorldGuard 7.x**, **MythicMobs 5.x** (soft-depend, cô lập adapter) |
 | Đầu vào | [01-ideation.md](01-ideation.md), [02-product-discovery.md](02-product-discovery.md), [03-requirements.md](03-requirements.md) (v2.0 – đã duyệt), kiểm chứng bytecode `paper-26.3-257.jar` & `AuraSkills-2.4.0.jar` |
 | Bước vòng đời | 04 / 09 – Architecture |
-| Phiên bản / Trạng thái | **v1.0 – Hoàn thiện – chờ duyệt** |
+| Phiên bản / Trạng thái | **v1.0 – Đã duyệt** |
 | Ngày | 2026-11-22 |
 
 ---
@@ -1286,4 +1286,4 @@ public interface SpiritZoneProvider {
 - [x] Thiết kế Concurrency: `ProfileSession` FSM + Retry, Rào đồng bộ 2 chiều, Dirty-Tracking & 3 tầng ghi, `UuidActionLock`, Offline Admin Handoff + Optimistic Locking và bảng Runtime In-Memory State (TTL chống leak)
 - [x] Đặc tả Public Java API, 4 Adapters cô lập và 5 nhóm Extension Points cho Phase 2, Phase 3 & Add-on
 - [x] Đánh giá Ngân sách Hiệu năng (`< 1 ms/tick` @ 50 người chơi), Ma trận Failure Modes/Bảo mật, 7 ADR và Ma trận Truy vết 100% từ Bước 03
-- [ ] **Stakeholder duyệt Kiến trúc Bước 04** → chuyển sang Bước 05 (UI/UX & Game Design)
+- [x] **Stakeholder duyệt Kiến trúc Bước 04** → chuyển sang Bước 05 (UI/UX & Game Design)
