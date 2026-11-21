@@ -8,7 +8,7 @@
 | Tích hợp tùy chọn | **PlaceholderAPI**, **WorldGuard**, **MythicMobs** (soft-depend) |
 | Đầu vào | [01-ideation.md](01-ideation.md), [02-product-discovery.md](02-product-discovery.md) (đã duyệt), kiểm chứng bytecode `paper-26.3-257.jar` & `AuraSkills-2.4.0.jar` |
 | Bước vòng đời | 03 / 09 – Requirement |
-| Phiên bản / Trạng thái | **v2.0 – Hoàn thiện BA Review (chờ Stakeholder duyệt sang Bước 04)** |
+| Phiên bản / Trạng thái | **v2.0 – Đã duyệt (Approved) – chuyển sang Bước 04 (Architecture)** |
 | Ngày | 2026-11-22 |
 
 ---
@@ -710,9 +710,11 @@ stateDiagram-v2
 7. **Khảo Nghiệm Thủy Ngân (Võ Đạo C2→C3):** Nâng lên bắt buộc **`M`** khớp Mục 10 và **bỏ double jeopardy** (vượt khảo nghiệm = 100% thành công).
 8. **Tự vệ PvP (Phàm Nhân / Cảnh 1):** Chỉ mất bảo hộ 30s khi **chủ động khởi chiến trước** (khớp Discovery BR-05).
 
-### 12.2 3 Điểm xác nhận nhanh khi duyệt Bước 03 *(đều đã cài giá trị đề xuất làm mặc định và cấu hình được qua YAML)*
+### 12.2 3 Điểm xác nhận khi duyệt Bước 03 *(Đã chốt ngày 2026-11-22)*
 
-| # | Hạng mục | Phương án đề xuất (đang áp dụng trong tài liệu) | Phương án thay thế |
+> **Quyết định Stakeholder (2026-11-22):** Đồng ý **chốt theo phương án đề xuất BA** cho cả 3 điểm `OQ-01`, `OQ-02`, `OQ-03` (áp dụng làm giá trị mặc định và giữ cấu hình được qua YAML).
+
+| # | Hạng mục | Phương án đã chốt (theo đề xuất BA – 2026-11-22) | Phương án thay thế (không chọn) |
 |---:|---|---|---|
 | **OQ-01** | **Nguồn *Tẩy Tủy Đan* (đổi đạo C3+) ở Phase 1** | Bật mặc định **công thức chế tạo đắt giá** (cfg, tắt được) + lệnh Admin — để SMP không có admin shop vẫn dùng được `FR-PATH-06` | Mặc định tắt công thức (chỉ Admin cấp ở P1, chờ Yêu Thú rơi ở P2) |
 | **OQ-02** | **Đánh dấu bản đồ & Tu Vi dư ở trần Cảnh 5 (`100%`)** | **0% tích trữ cho Phase 3** + **tạm dừng đánh dấu Chunk/Biome/Cấu trúc cá nhân** khi đã `100%` trần Cảnh 5 (không "đốt" bản đồ chờ P3) | Cho tích trữ tối đa `X%` Tu Vi dư, hoặc vẫn đánh dấu bản đồ bình thường |
@@ -728,4 +730,4 @@ stateDiagram-v2
 - [x] Mô hình cân bằng định lượng: thang 160.000 (15–25 giờ), khung ngân sách Stat Song Đạo (`+8%–13%` Power/cảnh), chống lạm dụng đa lớp
 - [x] User Stories & Acceptance Criteria phủ **100%** yêu cầu `M` của Phase 1
 - [x] Non-Functional Requirements có cách đo kiểm, dữ liệu logic + runtime, danh mục lệnh/quyền/Console, ma trận truy vết, sổ rủi ro không gãy tham chiếu
-- [ ] **Stakeholder xác nhận 3 điểm Mục 12.2 (hoặc duyệt nguyên trạng theo đề xuất BA)** → chuyển sang Bước 04 (Architecture)
+- [x] **Stakeholder xác nhận 3 điểm Mục 12.2 (đã duyệt theo đề xuất BA ngày 2026-11-22)** → chuyển sang Bước 04 (Architecture)

@@ -4,8 +4,8 @@
 |---|---|---|
 | 01. Ideation | [01-ideation.md](01-ideation.md) | Đã duyệt |
 | 02. Product Discovery | [02-product-discovery.md](02-product-discovery.md) | Đã duyệt |
-| 03. Requirement (BRD/PRD) | [03-requirements.md](03-requirements.md) | Hoàn thiện – chờ duyệt |
-| 04. Architecture | – | Chưa bắt đầu |
+| 03. Requirement (BRD/PRD) | [03-requirements.md](03-requirements.md) | Đã duyệt |
+| 04. Architecture | [04-architecture.md](04-architecture.md) | Hoàn thiện – chờ duyệt |
 | 05. UI/UX & Game Design | – | Chưa bắt đầu |
 | 06. Development | – | Chưa bắt đầu |
 | 07. Testing | – | Chưa bắt đầu |
